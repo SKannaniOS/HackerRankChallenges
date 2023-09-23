@@ -6,7 +6,8 @@
 //
 
 /// Source: https://www.hackerrank.com/challenges/30-hello-world/problem
-///
+
+///Task:
 /// To complete this challenge,
 ///     - You must save a line of input from stdin to a variable
 ///     - Print Hello, World. on a single line
