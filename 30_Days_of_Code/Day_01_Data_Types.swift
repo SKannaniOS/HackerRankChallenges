@@ -5,12 +5,12 @@
 //  Created by SK on 21/09/23.
 //
 
-///Source: https://www.hackerrank.com/challenges/30-data-types/problem
+/// Source: https://www.hackerrank.com/challenges/30-data-types/problem
 
 import Foundation
 
-///Task:
-///Complete the code in the editor below. The variables i,d, and s are already declared and initialized for you. You must:
+/// Task:
+/// Complete the code in the editor below. The variables i,d, and s are already declared and initialized for you. You must:
 ///
 /// - Declare  variables: one of type int, one of type double, and one of type String.
 /// - Read  lines of input from stdin (according to the sequence given in the Input Format section below) and initialize your  variables.
