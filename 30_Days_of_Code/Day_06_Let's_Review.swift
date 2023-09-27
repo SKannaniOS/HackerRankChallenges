@@ -7,12 +7,12 @@
 
 /// Source: https://www.hackerrank.com/challenges/30-review-loop/problem
 
-import Foundation
-
 /// Task:
 /// Given a string S, of N length that is indexed from 0 to N-1,
 /// print its even-indexed and odd-indexed characters as 2 space-separated strings
 /// on a single line
+
+import Foundation
 
 func printEvenAndOdd(string: String) {
     fputs("string: " + string + "\n", stderr)

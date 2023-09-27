@@ -7,8 +7,6 @@
 
 /// Source: https://www.hackerrank.com/challenges/30-data-types/problem
 
-import Foundation
-
 /// Task:
 /// Complete the code in the editor below. The variables i,d, and s are already declared and initialized for you. You must:
 ///
@@ -21,6 +19,7 @@ import Foundation
 ///     - Concatenate  with the string you read as input and print the result on a new line.
 ///
 
+import Foundation
 
 var i = 4
 var d = 4.0
