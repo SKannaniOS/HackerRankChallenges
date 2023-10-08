@@ -7,8 +7,6 @@
 
 /// Source: https://www.hackerrank.com/challenges/30-recursion/problem
 
-import Foundation
-
 /// Task:
 /// Complete the factorial function in the editor below. Be sure to use recursion.
 /// factorial has the following paramter:
@@ -16,6 +14,8 @@ import Foundation
 /// Returns
 ///     int: the factorial of n
 /// Note: If you fail to use recursion or fail to name your recursive function factorial or Factorial, you will get a score of 0.
+
+import Foundation
 
 let n = Int(readLine()!)!
 

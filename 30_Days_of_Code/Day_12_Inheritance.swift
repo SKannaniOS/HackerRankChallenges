@@ -7,8 +7,6 @@
 
 /// Source: https://www.hackerrank.com/challenges/30-inheritance/problem
 
-import Foundation
-
 /// Task:
 /// You are given two classes, Person and Student, where Person is the base class and Student is the derived class. 
 /// Completed code for Person and a declaration for Student are provided for you in the editor.
@@ -31,6 +29,8 @@ import Foundation
 /// P -> 55 to 69
 /// D -> 40 to 54
 /// T -> 0 to 39
+
+import Foundation
 
 // Class Person
 class Person {

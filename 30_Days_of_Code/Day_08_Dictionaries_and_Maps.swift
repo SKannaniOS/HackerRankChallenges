@@ -7,8 +7,6 @@
 
 /// Source: https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem
 
-import Foundation
-
 /// Task:
 /// Given "n" names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers.
 /// You will then be given an unknown number of names to query your phone book for.
@@ -16,6 +14,7 @@ import Foundation
 /// if an entry for "name" is not found, print "Not found" instead.
 /// Note: Your phone book should be a Dictionary/Map/HashMap data structure.
 
+import Foundation
 
 // Enter your code here. Read input from STDIN. Print output to STDOUT
 var n = Int(readLine()!)!

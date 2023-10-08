@@ -7,8 +7,6 @@
 
 /// Source: https://www.hackerrank.com/challenges/30-2d-arrays/problem
 
-import Foundation
-
 /// Task:
 /// Calculate the hourglass sum for every hourglass in A, then print the maximum hourglass sum.
 
@@ -23,6 +21,7 @@ import Foundation
 ///
 /// Answer: 19
 
+import Foundation
 
 var arr = [[Int]]()
 
