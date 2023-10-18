@@ -23,6 +23,8 @@
 ///
 ///Note: Because these classes are being written in the same file, you must not use an access modifier (e.g.: public) when declaring MyBook or your code will not execute.
 
+/// Solution is in C++11.
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
