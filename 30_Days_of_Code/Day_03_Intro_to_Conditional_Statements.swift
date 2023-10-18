@@ -18,8 +18,7 @@
 
 import Foundation
 
-guard let N = Int((readLine()?.trimmingCharacters(in: .whitespacesAndNewlines))!)
-else { fatalError("Bad input") }
+guard let N = Int((readLine()?.trimmingCharacters(in: .whitespacesAndNewlines))!) else { fatalError("Bad input") }
 
 if N % 2 != 0 {
     print("Weird")
