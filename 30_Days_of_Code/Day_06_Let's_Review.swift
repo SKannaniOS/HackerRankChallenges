@@ -15,6 +15,7 @@
 import Foundation
 
 func printEvenAndOdd(string: String) {
+    
     fputs("string: " + string + "\n", stderr)
     
     let evenString = string.enumerated().filter({ $0.0 % 2 == 0 }).map({ String($0.element) }).joined()
