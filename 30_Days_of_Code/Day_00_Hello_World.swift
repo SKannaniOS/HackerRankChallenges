@@ -9,6 +9,7 @@
 
 /// Task:
 /// To complete this challenge,
+/// 
 ///     - You must save a line of input from stdin to a variable
 ///     - Print Hello, World. on a single line
 ///     - Finally print the value of your variable on a second line.
