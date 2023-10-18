@@ -15,6 +15,7 @@
 import Foundation
 
 func solve(meal_cost: Double, tip_percent: Int, tax_percent: Int) -> Void {
+    
     let tipAmount: Double = (Double(tip_percent) / 100.0) * meal_cost
     let taxAmount: Double = (Double(tax_percent) / 100.0) * meal_cost
     
