@@ -22,7 +22,6 @@ class Difference {
     var maximumDifference: Int
     
     // Write your code here
-    
     init(a: [Int]) {
         self.elements = a
         self.maximumDifference = 0
