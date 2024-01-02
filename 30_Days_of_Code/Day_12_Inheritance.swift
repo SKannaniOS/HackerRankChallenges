@@ -65,6 +65,7 @@ class Student: Person {
     *   id - An integer denoting the Person's ID number.
     *   scores - An array of integers denoting the Person's test scores.
     */
+    
     // Write your initializer here
     init(firstName: String, lastName: String, id: Int, scores: [Int]) {
         self.testScores = scores
