@@ -42,7 +42,6 @@ for _ in 1...6 {
 guard arr.count == 6 else { fatalError("Bad input") }
 
 // Solution starts below
-
 var allValues = [Int]()
 for i in 0...3 {
     for j in 0...3 {
