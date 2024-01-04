@@ -78,3 +78,32 @@ for tItr in 1...t {
     minimumBribes(q: q)
 }
 
+
+///Note: The most simpler solution for the same above problem is below.
+
+func minimumBribes(q: [Int]) -> Void {
+    var bribes = 0
+    var p1 = 1
+    var p2 = 2
+    var p3 = 3
+    
+    for p in q {
+        if p == p1 {
+            p1 = p2
+            p2 = p3
+            p3 += 1
+        } else if p == p2 {
+            bribes += 1
+            p2 = p3
+            p3 += 1
+        } else if p == p3 {
+            bribes += 2
+            p3 += 1
+        } else {
+            bribes = -1
+            break
+        }
+    }
+    
+    bribes == -1 ? print("Too chaotic") : print(bribes)
+}
